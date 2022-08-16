@@ -1,0 +1,17 @@
+name: nico
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.3.1
+  - numpy=1.22.3
+  - pillow=9.2.0
+  - pip=22.1.2
+  - python=3.8.13
+  - pytorch=1.10.1
+  - scipy=1.7.3
+  - torchvision=0.11.2
+  - pip:
+    - timm==0.5.4
+    - tqdm==4.62.3
