@@ -1,5 +1,8 @@
 # SimpleDG
-This is the training and test code of our method for [NICO challenge](https://nicochallenge.com/) track1 and track2.
+This is the training and test code of our method for [NICO challenge](https://nicochallenge.com/) track1 and track2.  
+
+We won both the 2nd prize in [track1](certificates/track1_second.pdf) and [track2](certificates/track2_second.pdf), the [paper](https://arxiv.org/abs/2210.14507) has been accepted in ECCV2022 workshop.
+![certificates](certificates/certificates.jpg)
 
 ## preperation
 Download the NICO++ dataset [HERE](https://nicochallenge.com/dataset), unzip them to `$data_dir` and fill it to Makefile (line 1: data_dir = `$data_dir`). The data should have the following structure:  
